@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+* {
+	margin: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+body {
+	overflow-x: hidden;
+	background-color: #edf3f8;
+	background-image: url("./payapi-multi-page-website/starter-code/assets/shared/desktop/bg-pattern-circle.svg"),
+		url("./payapi-multi-page-website/starter-code/assets/home/desktop/illustration-phone-mockup.png");
+	background-repeat: no-repeat;
+	background-size: 780px 780px, 263px 500px;
+	background-position: 1280px -172px, 1397px 162px;
+}
+h1,
+h2 {
+	font-family: "DM Serif Display", serif;
+}
+
+h1.large {
+	font-size: 72px;
+	line-height: 72px;
+}
+h1.small {
+	font-size: 56px;
+	line-height: 56px;
+}
+h2 {
+	font-size: 48px;
+	line-height: 56px;
+}
+h3.large {
+	font-family: "DM Serif Display", sans-serif;
+	font-size: 32px;
+	line-height: 40px;
+}
+h3.small {
+	font-family: "Public Sans", sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+}
+h4 {
+	font-family: "DM Serif Display", sans-serif;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+body,
+.content_text {
+	font-family: "Public Sans", sans-serif;
+	font-size: 15px;
+	line-height: 28px;
+}
+.logo {
+	height: 38px;
+	width: 135px;
+}
+.primary1_background {
+	background-color: #ba4270;
+}
+.primary2_background {
+	background-color: #fbfcfe;
+}
+.secondary1_background {
+	background-color: #36536b;
+}
+.secondary2_background {
+	background-color: #1b262f;
+}
+.secondary3_background {
+	background-color: #da6d97;
+}
+.secondary4_background {
+	background-color: #6c8294;
+}
+
+.primary1_color {
+	color: #ba4270;
+}
+.primary2_color {
+	color: #fbfcfe;
+}
+.secondary1_color {
+	color: #36536b;
+}
+.secondary2_color {
+	color: #1b262f;
+}
+.secondary3_color {
+	color: #da6d97;
+}
+.secondary4_color {
+	color: #6c8294;
+}
+
+.with_margin {
+	left: 10vw;
+	position: relative;
+}
+
+.flex_container {
+	top: 40px;
+	align-items: center;
+	width: 80vw;
+}
+.flex_container {
+	display: flex;
+}
+div.navbar {
+	display: flex;
+	gap: 40px;
+}
+p {
+	display: flex;
+	text-align: center;
+}
+.navbar {
+	margin-left: 64px;
+	width: auto;
+}
+
+.end_of_flex {
+	margin-left: auto;
+}
+.demo_button {
+	display: inherit;
+	padding: 15px 25px;
+	border: none;
+	border-radius: 24px;
+	height: 48px;
+	width: 173px;
+	align-items: center;
+}
+a {
+	text-decoration: none;
+}
+
+.grid_container {
+	display: grid;
+}
+.head_grid_container {
+	grid-template-columns: repeat(4, 136px);
+	grid-template-rows: repeat(3, auto);
+	gap: 20px;
+}
+.head_text {
+	grid-column: 1/4 span;
+}
+.inline_flex {
+	display: inline-flex;
+}
+.second_row {
+	grid-row: 2;
+}
+.three_span_col {
+	grid-column: 1/3 span;
+}
+.third_col {
+	grid-column: 3;
+}
+input[type="email"] {
+	border-radius: 24px;
+	border: none;
+}
+.head_container {
+	top: 240px;
+	position: relative;
+}
+.question {
+	grid-row: 3;
+	grid-column: 1/2 span;
+	display: inline;
+}
+.bold_text {
+	font-weight: bold;
+}
+.text_container {
+	margin: 100px auto 100px 165px;
+	grid-column: 1;
+	width: 445px;
+	height: 272px;
+}
+.rel_pos {
+	position: relative;
+}
+.abs_pos {
+	position: absolute;
+}
+.auto_size {
+	height: fit-content;
+}
+
+.two_cols_one_rows {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: auto auto;
+}
+.main_container {
+	top: 148px;
+	position: relative;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+.left_align {
+	text-align: left;
+}
+.middle {
+	align-self: center;
+}
+
+.about_button {
+	width: 130px;
+	height: 48px;
+	border: 1px solid #fbfcfe;
+	justify-content: center;
+	border-radius: 24px;
+}
+
+.cooperate {
+	grid-template-columns: repeat(3, 180px);
+	grid-template-rows: repeat(2, 32px);
+	margin: 185px 164px 81px 0;
+	justify-items: center;
+	align-items: center;
+	gap: 60px;
+}
+
+.first_row {
+	grid-row: 1;
+}
+.second_row {
+	grid-row: 2;
+}
+.third_row {
+	grid-row: 3;
+}
+.first_col {
+	grid-column: 1;
+}
+.second_col {
+	grid-column: 2;
+}
+
+.scale {
+	height: 32px;
+	width: auto;
+}
