@@ -10,10 +10,11 @@ body {
 	overflow-x: hidden;
 	background-color: #edf3f8;
 	background-image: url("./assets/shared/desktop/bg-pattern-circle.svg"),
-		url("./assets/home/desktop/illustration-phone-mockup.png");
+		url("./assets/home/desktop/illustration-phone-mockup.png"),
+		url("./assets/shared/desktop/bg-pattern-circle.svg");
 	background-repeat: no-repeat;
-	background-size: 780px 780px, 263px 500px;
-	background-position: 1280px -172px, 1397px 162px;
+	background-size: 780px 780px, 263px 500px, 780px 780px;
+	background-position: 1280px -172px, 1397px 162px, 1530px 1653px;
 }
 h1,
 h2 {
@@ -97,14 +98,12 @@ body,
 }
 
 .with_margin {
-	left: 10vw;
-	position: relative;
+	margin-left: 10vw;
 }
 
 .flex_container {
 	top: 40px;
 	align-items: center;
-	width: 80vw;
 }
 .flex_container {
 	display: flex;
@@ -120,6 +119,13 @@ p {
 .navbar {
 	margin-left: 64px;
 	width: auto;
+}
+.navbar_link:hover {
+	cursor: pointer;
+	color: #36536b;
+}
+.navbar_head {
+	width: 80vw;
 }
 
 .end_of_flex {
@@ -164,6 +170,10 @@ a {
 input[type="email"] {
 	border-radius: 24px;
 	border: none;
+	padding-left: 30px;
+}
+input[type="email"]:focus {
+	outline: none;
 }
 .head_container {
 	top: 240px;
@@ -199,8 +209,8 @@ input[type="email"] {
 	grid-template-columns: auto auto;
 }
 .main_container {
-	top: 148px;
-	position: relative;
+	margin-top: 148px;
+	position: initial;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
 }
@@ -218,6 +228,11 @@ input[type="email"] {
 	border: 1px solid #fbfcfe;
 	justify-content: center;
 	border-radius: 24px;
+}
+
+.about_button:hover {
+	background-color: white;
+	color: #1b262f;
 }
 
 .cooperate {
@@ -248,4 +263,123 @@ input[type="email"] {
 .scale {
 	height: 32px;
 	width: auto;
+}
+
+.implement_grid {
+	grid-template-columns: 445px 445px;
+	gap: 125px;
+	align-items: center;
+}
+
+.easy_implement {
+	width: 445px;
+	height: 284px;
+}
+
+.simple_ui {
+	height: 500px;
+	width: auto;
+	margin-left: 1185px;
+}
+
+.finance {
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr auto;
+	justify-items: center;
+	row-gap: 32px;
+}
+
+.payment {
+	width: 106px;
+}
+
+.margin_top_150px {
+	margin-top: 150px;
+}
+
+.payment_text {
+	gap: 16px;
+	text-align: center;
+	width: 350px;
+}
+
+.ready_to_start {
+	grid-template-columns: 40vw 40vw;
+	width: fit-content;
+}
+
+.center_body {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.ready_to_start_demo {
+	grid-template-columns: repeat(4, 1fr);
+	align-content: center;
+}
+.ready_to_start_email {
+	grid-column: 3/2 span;
+	grid-row: 1;
+}
+.ready_to_start_button {
+	grid-column: 4;
+	grid-row: 1;
+	width: auto;
+	justify-content: center;
+}
+.margin_top_100px {
+	margin-top: 100px;
+}
+
+.btn:hover {
+	cursor: pointer;
+	background-color: #da6d97;
+}
+
+footer {
+	height: 100px;
+}
+
+.media_social {
+	width: 24px;
+}
+
+footer .grid_container {
+	grid-template-columns: min-content min-content min-content;
+	column-gap: 24px;
+	text-align: right;
+	justify-content: end;
+	margin-right: 10vw;
+	align-items: center;
+}
+
+.social1 {
+	content: url("./assets/shared/desktop/facebook.svg");
+	width: 24px;
+	height: 24px;
+}
+.social1:hover {
+	content: url("./assets/shared/desktop/facebook_hover.svg");
+	width: 24px;
+	height: 24px;
+}
+.social2 {
+	content: url("./assets/shared/desktop/twitter.svg");
+	width: 24px;
+	height: 24px;
+}
+.social2:hover {
+	content: url("./assets/shared/desktop/twitter_hover.svg");
+	width: 24px;
+	height: 24px;
+}
+.social3 {
+	content: url("./assets/shared/desktop/linkedin.svg");
+	width: 24px;
+	height: 24px;
+}
+.social3:hover {
+	content: url("./assets/shared/desktop/linkedin_hover.svg");
+	width: 24px;
+	height: 24px;
 }
