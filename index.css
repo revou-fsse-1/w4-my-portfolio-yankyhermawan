@@ -3,7 +3,6 @@
 
 * {
 	margin: 0;
-	width: 100%;
 	box-sizing: border-box;
 }
 body {
@@ -15,6 +14,10 @@ body {
 	background-repeat: no-repeat;
 	background-size: 780px 780px, 263px 500px, 780px 780px;
 	background-position: 1280px -172px, 1397px 162px, 1530px 1653px;
+}
+
+main {
+	width: 100%;
 }
 h1,
 h2 {
